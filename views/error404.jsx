@@ -3,13 +3,14 @@ const Def = require('./default')
 
 function error404 () {
     return (
-      <Def>
-          <main>
-              <h1>404: PAGE NOT FOUND</h1>
-              <p>Oops, sorry, we can't find this page!</p>
-          </main>
-      </Def>
+        <Def>
+            <main>
+                <h1>404: Page not found</h1>
+                <p>Oops, sorry we can't find this page!</p>
+                <img src="https://images.hdqwalls.com/download/cartoon-ninja-pic-310x720.jpg" alt="Cat that is very sorry he can't find your page" />
+            </main>
+        </Def>
     )
-  }  
+}
 
 module.exports = error404
